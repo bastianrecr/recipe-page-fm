@@ -1,0 +1,69 @@
+@font-face {
+  font-family: "Young Serif";
+  src: url("../assets/fonts/young-serif/YoungSerif-Regular.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Outfit";
+  src: url("../assets/fonts/outfit/Outfit-VariableFont_wght.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Outfit";
+  src: url("../assets/fonts/outfit/Outfit-VariableFont_wght.ttf")
+    format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Outfit";
+  src: url("../assets/fonts/outfit/Outfit-VariableFont_wght.ttf")
+    format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+.recipe {
+  font-size: 16px;
+  font-family: "Outfit";
+}
+
+.header__cover {
+  border-radius: 1.25rem;
+}
+
+.introduction__heading {
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  font-family: "Young Serif";
+}
+
+.preparation-time {
+  background-color: hsl(330, 100%, 98%);
+}
+
+.preparation-time__heading {
+  color: hsl(332, 51%, 32%);
+}
+
+.preparation-time__phases .preparation-time__phase::marker {
+  color: hsl(332, 51%, 32%);
+}
+
+.card__heading {
+  color: hsl(14, 45%, 36%);
+  font-family: "Young Serif";
+}
+
+.color-sample {
+  width: 50px;
+  margin: 5px;
+}
