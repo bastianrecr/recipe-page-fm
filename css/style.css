@@ -30,13 +30,38 @@
   font-style: normal;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+.recipe-container {
+  display: flex;
+  justify-content: center;
+  background-color: hsl(30, 54%, 90%);
+}
+
 .recipe {
   font-size: 16px;
   font-family: "Outfit";
+  color: hsl(30, 10%, 34%);
+  background-color: hsl(0, 0%, 100%);
+  padding: 3rem;
+  margin: 15em 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header {
+  width: 80%;
 }
 
 .header__cover {
   border-radius: 1.25rem;
+  width: 80%;
 }
 
 .introduction__heading {
@@ -44,18 +69,34 @@
   font-weight: 600;
   letter-spacing: 1.5px;
   font-family: "Young Serif";
+  color: hsl(24, 5%, 18%);
 }
 
 .preparation-time {
   background-color: hsl(330, 100%, 98%);
+  padding: 0.25rem;
+  border-radius: 0.5rem;
 }
 
 .preparation-time__heading {
   color: hsl(332, 51%, 32%);
+  padding: 0.25rem 0 0.25rem 1.25rem;
+}
+
+.preparation-time__phase {
+  padding: 0 1rem 0.5rem;
 }
 
 .preparation-time__phases .preparation-time__phase::marker {
   color: hsl(332, 51%, 32%);
+}
+
+.preparation-time__phase_bold {
+  color: hsl(30, 10%, 34%);
+}
+
+.content {
+  width: 80%;
 }
 
 .card__heading {
