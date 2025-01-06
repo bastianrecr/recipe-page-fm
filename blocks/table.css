@@ -1,0 +1,30 @@
+.table {
+  display: grid;
+  grid-template: repeat(4, 1fr) / repeat(2, 1fr);
+}
+
+.table__data {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  line-height: 1.5;
+}
+
+.table__data_measuring-unit {
+  font-weight: 700;
+  color: hsl(14, 45%, 36%);
+}
+
+.table__data_bottom-border {
+  border-bottom: solid 1px hsl(30, 18%, 87%);
+}
+
+.table__data_first-row {
+  padding-top: 0;
+
+  display: flex;
+  align-self: center;
+}
+
+.table__data_last-row {
+  padding-bottom: 0;
+}

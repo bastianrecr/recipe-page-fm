@@ -1,123 +1,25 @@
 @import url("../vendor/normalize.css");
 
-@font-face {
-  font-family: "Young Serif";
-  src: url("../assets/fonts/young-serif/YoungSerif-Regular.ttf")
-    format("truetype");
-  font-weight: 400;
-  font-style: normal;
-}
+@import url("../vendor/fonts.css");
 
-@font-face {
-  font-family: "Outfit";
-  src: url("../assets/fonts/outfit/Outfit-VariableFont_wght.ttf")
-    format("truetype");
-  font-weight: 400;
-  font-style: normal;
-}
+@import url("../blocks/recipe-container.css");
 
-@font-face {
-  font-family: "Outfit";
-  src: url("../assets/fonts/outfit/Outfit-VariableFont_wght.ttf")
-    format("truetype");
-  font-weight: 600;
-  font-style: normal;
-}
+@import url("../blocks/recipe.css");
 
-@font-face {
-  font-family: "Outfit";
-  src: url("../assets/fonts/outfit/Outfit-VariableFont_wght.ttf")
-    format("truetype");
-  font-weight: 700;
-  font-style: normal;
-}
+@import url("../blocks/header.css");
 
-* {
-  box-sizing: border-box;
-}
+@import url("../blocks/introduction.css");
 
-body {
-  margin: 0;
-}
-.recipe-container {
-  display: flex;
-  justify-content: center;
-  background-color: hsl(30, 54%, 90%);
-}
+@import url("../blocks/content.css");
 
-.recipe {
-  font-size: 16px;
-  font-family: "Outfit";
-  color: hsl(30, 10%, 34%);
-  background-color: hsl(0, 0%, 100%);
-  padding: 3rem;
-  margin: 15em 20rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+@import url("../blocks/preparation-time.css");
 
-.header {
-  width: 80%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+@import url("../blocks/card.css");
 
-.header__cover {
-  border-radius: 1.25rem;
-  width: 80%;
-}
+@import url("../blocks/ingredients.css");
 
-.introduction__heading {
-  font-size: 2rem;
-  font-weight: 600;
-  letter-spacing: 1.5px;
-  font-family: "Young Serif";
-  color: hsl(24, 5%, 18%);
-}
+@import url("../blocks/steps.css");
 
-.preparation-time {
-  background-color: hsl(330, 100%, 98%);
-  padding: 0.25rem;
-  border-radius: 0.5rem;
-}
+@import url("../blocks/table.css");
 
-.preparation-time__heading {
-  color: hsl(332, 51%, 32%);
-  padding: 0.25rem 0 0.25rem 1.25rem;
-}
-
-.preparation-time__phase {
-  padding: 0 1rem 0.5rem;
-}
-
-.preparation-time__phases .preparation-time__phase::marker {
-  color: hsl(332, 51%, 32%);
-}
-
-.preparation-time__phase_bold {
-  color: hsl(30, 10%, 34%);
-}
-
-.content {
-  width: 80%;
-}
-
-.card__heading {
-  color: hsl(14, 45%, 36%);
-  font-family: "Young Serif";
-}
-
-.color-sample {
-  width: 50px;
-  margin: 5px;
-}
-
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-.attribution__link {
-  color: hsl(228, 45%, 44%);
-}
+@import url("../blocks/attribution.css");

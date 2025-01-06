@@ -1,0 +1,22 @@
+.steps {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  padding-left: 26px;
+  gap: 8px;
+}
+
+.steps_bottom-border {
+  padding-bottom: 32px;
+  border-bottom: solid 1px hsl(30, 18%, 87%);
+}
+
+.steps__step {
+  padding-left: 16px;
+  line-height: 1.5;
+}
+
+.steps__step::marker {
+  color: hsl(14, 45%, 36%);
+  font-weight: 600;
+}

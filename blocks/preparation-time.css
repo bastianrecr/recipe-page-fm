@@ -1,0 +1,37 @@
+.preparation-time {
+  background-color: hsl(330, 100%, 98%);
+  padding: 24px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.preparation-time__heading {
+  margin: 0;
+  color: hsl(332, 51%, 32%);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1;
+}
+
+.preparation-time__phases {
+  margin: 0;
+  padding-left: 26px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.preparation-time__phase {
+  padding-left: 16px;
+  line-height: 1.5;
+}
+
+.preparation-time__phase::marker {
+  color: hsl(332, 51%, 32%);
+}
+
+.preparation-time__phase_bold {
+  color: hsl(30, 10%, 34%);
+}
