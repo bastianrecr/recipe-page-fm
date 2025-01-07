@@ -32,8 +32,8 @@ The challenge was to build a static recipe page following the provided design an
 
 ### Links
 
-- Solution URL: [Add solution link here](#)
-- Live Site URL: [Add live site URL here](#)
+- Solution URL: [Add solution link here](https://github.com/bastianrecr/recipe-page-fm)
+- Live Site URL: [Add live site URL here](https://bastianrecr.github.io/recipe-page-fm/)
 
 ## My process
 
